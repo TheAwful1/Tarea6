@@ -1,0 +1,31 @@
+name: herramientas_app
+description: Caja de herramientas con APIs (género, persona, universidades, clima, pokémon, WordPress).
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  audioplayers: ^6.0.0
+  url_launcher: ^6.2.0
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/icono.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
